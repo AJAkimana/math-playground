@@ -1,6 +1,6 @@
 from utils.helpers import helpers
 
-print("Hi $USER, Welcome to RWANDA salary calculator")
+print("Hi $USER, Welcome to AKIMANA Math Play ground")
 message = """
 Choose among the choices below to calculate:\n
 1. Growth salary\n
