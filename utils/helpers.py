@@ -41,5 +41,16 @@ class Helper:
 			print(f'{number} x {j} = {number*j}')
 		print('================')
 		
+	@staticmethod
+	def n_dividers(number):
+		# print(f'All dividend of {number}')
+		dividers = []
+		for i in range(2, number-1):
+			if number % i == 0:
+				dividers.append(i)
+				# print(f'{number} : {i} = {number/i}')
+		# print(f'Dividers: {dividers}')
+		return dividers
+		
 		
 helpers = Helper()
